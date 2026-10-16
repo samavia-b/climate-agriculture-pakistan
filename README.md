@@ -1,41 +1,70 @@
-## Climate and Agriculture in Pakistan
-### Project Overview
+# Climate and Agriculture in Pakistan
 
-This project explores the relationship between climate trends and agricultural systems in Pakistan using publicly available data. It aims to demonstrate a structured approach to data collection, descriptive analysis, and research communication relevant to climate change adaptation and sustainable development.
+## Project overview
 
-### Research Question
+This project explores climate trends and their relevance to agriculture in Pakistan using publicly available climate data. It documents the data sources, analytical methods, findings, and limitations in a transparent and reproducible way.
 
-What trends can be observed in historical climate indicators in Pakistan, and how can these findings inform further research on climate adaptation in agriculture?
+The initial analysis examines historical annual average surface air temperature in Pakistan. Future work may explore the relationship between climate trends and agricultural indicators.
 
-### Objectives
-Explore historical climate indicators relevant to Pakistan.
-Organize and assess publicly available data for completeness and consistency.
-Use descriptive statistics and visualizations to identify trends.
-Discuss the relevance of observed patterns for climate adaptation research.
-Document the data sources, analytical steps, and limitations transparently.
-Data Sources
+## Research question
 
-Publicly available climate and agricultural datasets will be selected from reputable sources, such as the World Bank Climate Change Knowledge Portal and the Food and Agriculture Organization of the United Nations (FAOSTAT).
+How have annual average surface air temperatures in Pakistan changed between 1901 and 2025?
 
-Specific datasets, indicators, time periods, and source links will be documented as the analysis develops.
+## Data source
 
-### Data and methodology
+* **Provider:** World Bank Climate Change Knowledge Portal
+* **Dataset:** CRU TS 4.10
+* **Geographical coverage:** Pakistan
+* **Variable:** `tas` — average surface air temperature
+* **Unit:** Degrees Celsius (°C)
+* **Temporal resolution:** Annual
+* **Period covered:** 1901–2025, as shown in the downloaded file
 
-**Source:** World Bank Climate Change Knowledge Portal, CRU TS 4.10 observed climate dataset.
+The data were downloaded through the portal's spatially aggregated data interface. The original downloaded data are preserved in the Excel workbook.
 
-**Geographical coverage:** Pakistan, country-level spatial aggregation.
+## Methodology
 
-**Variable:** `tas` — average surface air temperature, measured in degrees Celsius (°C).
+The analysis was conducted in Microsoft Excel.
 
-**Temporal coverage:** 1901–2025, as shown in the downloaded file.
+1. Downloaded the annual temperature time series for Pakistan.
+2. Preserved the original data in a separate worksheet.
+3. Reshaped the data from wide format into a table with separate date and temperature fields.
+4. Created a line chart to visualize year-to-year temperature variation.
+5. Calculated and compared the mean annual temperature values for two 30-year periods: 1901–1930 and 1996–2025.
 
-**Temporal resolution:** Annual.
+## Preliminary findings
 
-**Analysis:** The downloaded data were reshaped from wide to long format in Excel. A line chart was created to visualize annual temperature variation. Mean annual temperatures were calculated for 1901–1930 and 1996–2025, and the two period averages were compared.
+| Period     | Mean annual temperature |
+| ---------- | ----------------------: |
+| 1901–1930  |                20.631°C |
+| 1996–2025  |                21.621°C |
+| Difference |                +0.990°C |
 
-**Result:** The mean of the annual temperature values was 20.631°C for 1901–1930 and 21.621°C for 1996–2025, a difference of approximately 0.99°C.
+The mean of the annual temperature values in 1996–2025 was approximately 0.99°C higher than in 1901–1930. The time series also displays year-to-year variability alongside an overall upward pattern.
 
-**Limitations:** The downloaded date labels use the format `YYYY-07`; the meaning of this suffix has not been independently verified. This analysis is descriptive and does not test statistical significance or attribute the temperature difference to a particular cause.
+This is a descriptive comparison of two periods. It does not, by itself, establish statistical significance or attribute the difference to a specific cause.
+
+## Limitations
+
+* The analysis is based on country-level spatially aggregated data and does not show regional differences within Pakistan.
+* The meaning of the `-07` suffix in the downloaded date labels (`YYYY-07`) has not yet been independently verified.
+* No statistical trend test or causal attribution analysis has been conducted.
+* The analysis does not yet assess agricultural outcomes or establish links between temperature changes and crop yields.
+
+## Files
+
+* `pakistan_temperature_analysis.xlsx` — Excel workbook containing the original data, cleaned data, and temperature chart.
+
+## Next steps
+
+* Verify the date-label convention and document the dataset metadata.
+* Assess the long-term temperature trend using a statistical method.
+* Explore suitable public agricultural data to investigate potential relationships between climate and agriculture.
+
+## Tools
+
+Microsoft Excel · Data cleaning · Descriptive analysis · Data visualization · Climate research
+verified. This analysis is descriptive and does not test statistical significance or attribute the temperature difference to a particular cause.
 
 Tools
 Microsoft Excel for data cleaning, descriptive analysis, and visualization.
