@@ -1,14 +1,14 @@
-# Climate and Agriculture in Pakistan
+# Historical Temperature Trends in Pakistan (1901–2025)
 
 ## Project overview
 
-This project explores climate trends and their relevance to agriculture in Pakistan using publicly available climate data. It documents the data sources, analytical methods, findings, and limitations in a transparent and reproducible way.
+This project examines historical changes in annual average surface air temperature in Pakistan from 1901 to 2025. Using climate data accessed through the World Bank Climate Change Knowledge Portal, the analysis explores long-term temperature patterns through data cleaning, descriptive statistics, and time-series visualisation.
 
-The initial analysis examines historical annual average surface air temperature in Pakistan. Future work may explore the relationship between climate trends and agricultural indicators.
+The project demonstrates a basic, reproducible workflow for exploring historical climate data using Microsoft Excel and documenting the analysis on GitHub.
 
 ## Research question
 
-How have annual average surface air temperatures in Pakistan changed between 1901 and 2025?
+How has annual average surface air temperature in Pakistan changed between 1901 and 2025?
 
 ## Data source
 
