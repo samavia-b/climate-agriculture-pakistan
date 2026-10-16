@@ -33,6 +33,7 @@ The analysis was conducted in Microsoft Excel.
 5. Calculated and compared the mean annual temperature values for two 30-year periods: 1901–1930 and 1996–2025.
 
 ## Preliminary findings
+![Annual average surface air temperature in Pakistan, 1901–2025](pakistan_temperature_trend.png)
 
 | Period     | Mean annual temperature |
 | ---------- | ----------------------: |
