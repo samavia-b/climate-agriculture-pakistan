@@ -22,15 +22,17 @@ How have annual average surface air temperatures in Pakistan changed between 190
 
 The data were downloaded through the portal's spatially aggregated data interface. The original downloaded data are preserved in the Excel workbook.
 
+
 ## Methodology
 
-The analysis was conducted in Microsoft Excel.
+1. Obtained annual average surface air temperature data for Pakistan from the World Bank Climate Change Knowledge Portal, using the CRU TS 4.10 dataset.
+2. Restructured the downloaded data from a wide format into a tidy format, with one row per year.
+3. Visualised annual temperatures in a time-series line chart.
+4. Calculated mean temperatures for 1901–1930 and 1996–2025 and compared the two periods.
+5. Estimated the linear temperature trend using Excel's `SLOPE` function, with year as the independent variable and temperature as the dependent variable.
 
-1. Downloaded the annual temperature time series for Pakistan.
-2. Preserved the original data in a separate worksheet.
-3. Reshaped the data from wide format into a table with separate date and temperature fields.
-4. Created a line chart to visualize year-to-year temperature variation.
-5. Calculated and compared the mean annual temperature values for two 30-year periods: 1901–1930 and 1996–2025.
+The analysis is descriptive. It does not test statistical significance, attribute temperature changes to specific causes, or directly assess agricultural impacts.
+
 
 ## Preliminary findings
 ![Annual average surface air temperature in Pakistan, 1901–2025](pakistan_temperature_trend.png)
