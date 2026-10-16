@@ -56,34 +56,23 @@ The analysis compares the average temperature in 1901–1930 (20.631°C) with th
 
 ## Limitations
 
-* The analysis is based on country-level spatially aggregated data and does not show regional differences within Pakistan.
+* The analysis uses country-level spatially aggregated data and does not capture regional differences within Pakistan.
 * The meaning of the `-07` suffix in the downloaded date labels (`YYYY-07`) has not yet been independently verified.
-* No statistical trend test or causal attribution analysis has been conducted.
-* The analysis does not yet assess agricultural outcomes or establish links between temperature changes and crop yields.
+* The linear trend estimate is descriptive; no formal statistical significance test or causal attribution analysis has been conducted.
+* The analysis does not directly assess agricultural outcomes or establish a relationship between temperature changes and crop yields.
 
 ## Files
 
-* `pakistan_temperature_analysis.xlsx` — Excel workbook containing the original data, cleaned data, and temperature chart.
+* `pakistan_temperature_analysis.xlsx` — Excel workbook containing the original data, cleaned data, calculations, and analysis.
+* `pakistan_temperature_trend.png` — Chart of annual average surface air temperature in Pakistan, 1901–2025.
 
 ## Next steps
 
 * Verify the date-label convention and document the dataset metadata.
-* Assess the long-term temperature trend using a statistical method.
-* Explore suitable public agricultural data to investigate potential relationships between climate and agriculture.
+* Consider a formal statistical test of the long-term temperature trend.
+* Explore publicly available agricultural data to investigate potential relationships between climate indicators and agricultural outcomes.
 
 ## Tools
 
-Microsoft Excel · Data cleaning · Descriptive analysis · Data visualization · Climate research
-verified. This analysis is descriptive and does not test statistical significance or attribute the temperature difference to a particular cause.
+Microsoft Excel · Data cleaning · Descriptive analysis · Data visualisation · GitHub
 
-Tools
-Microsoft Excel for data cleaning, descriptive analysis, and visualization.
-GitHub for project documentation and version tracking.
-Expected Outputs
-Documented public data sources.
-A structured dataset and analysis workbook.
-Charts summarizing selected climate indicators.
-A concise research brief discussing findings and limitations.
-Limitations
-
-This project is intended as a descriptive analysis. Observed climate trends alone cannot establish their effects on agricultural productivity or farmers' adaptation decisions. Such conclusions would require additional agricultural data and an appropriate analytical design.
