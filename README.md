@@ -45,6 +45,13 @@ The mean of the annual temperature values in 1996–2025 was approximately 0.99�
 
 This is a descriptive comparison of two periods. It does not, by itself, establish statistical significance or attribute the difference to a specific cause.
 
+### Long-term temperature trend
+
+A linear regression of annual average surface air temperature for Pakistan over 1901–2025 estimated a warming trend of approximately **0.094°C per decade**. This estimate summarises the linear trend across the study period; it does not establish statistical significance or attribute the observed change to specific causes.
+
+The analysis compares the average temperature in 1901–1930 (20.631°C) with that in 1996–2025 (21.621°C), a difference of approximately **0.990°C** between the two 30-year periods.
+
+
 ## Limitations
 
 * The analysis is based on country-level spatially aggregated data and does not show regional differences within Pakistan.
